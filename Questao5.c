@@ -14,9 +14,9 @@ int main () {
 
     do
     {
-        printf("ECommerce\n");
-        printf("1- Cadastrar uma nova venda\n");
-        printf("2- Overall das vendas realizadas\n");
+        printf("Comercio Vendas\n");
+        printf("1.0 Cadastrar uma nova venda\n");
+        printf("1.1 Vendas realizadas\n");
         printf("Resposta: ");
         scanf("%i", &opcao);
 
@@ -48,8 +48,8 @@ int main () {
 
         case 2:
             printf("Vendas do dia!\n");
-            printf("Total de vendas realizadas: %i \n", j);
-            printf("Lucro do dia: %.2f \n\n", lucro);
+            printf("Vendas realizadas: %i \n", j);
+            printf("Lucro: %.2f \n\n", lucro);
 
         default:
             break;
