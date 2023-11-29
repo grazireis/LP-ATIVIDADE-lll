@@ -14,9 +14,9 @@ int main()
 
     do
     {
-        printf("Seja bem-vindo a sua Agenda Virtual!\n");
-        printf("1- Cadastrar um novo número.\n");
-        printf("2- Agenda com os números cadastrados.\n");
+        printf("Agenda Virtual!\n");
+        printf("1- Cadastrar um novo nÃºmero.\n");
+        printf("2- Agenda com os nÃºmeros cadastrados.\n");
         printf("Resposta: ");
         scanf("%i", &opcao);
 
@@ -27,13 +27,13 @@ int main()
         switch (opcao)
         {
         case 1:
-            printf("Cadastre seu número");
+            printf("Cadastre seu nÃºmero");
             printf("\n");
 
             printf("Seu nome: ");
             gets(nome[j]);
 
-            printf("Digite seu telefone fixo: ");
+            printf("Digite seu telefone: ");
             gets(telefone[j]);
             system("cls||clear");
             j++;
