@@ -14,9 +14,9 @@ int main()
 
     do
     {
-        printf("Agenda Virtual!\n");
+        printf("Agenda Telefonica!\n");
         printf("1- Cadastrar um novo número.\n");
-        printf("2- Agenda com os números cadastrados.\n");
+        printf("2- Os números cadastrados.\n");
         printf("Resposta: ");
         scanf("%i", &opcao);
 
@@ -41,7 +41,7 @@ int main()
             break;
 
         case 2:
-            printf("Agenda Virtual \n");
+            printf("Agenda Telefonica \n");
 
             for (i = 1; i < j; i++)
             {
